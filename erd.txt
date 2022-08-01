@@ -1,0 +1,55 @@
+www.quickdatabasediagrams.com
+
+
+Diagram Documentation
+
+listings
+ Field                      Description   Type           Default   Other
+
+ id                                       int                      PK
+
+ host_id                                  int
+
+ airbnb_name                              varchar(200)             FK
+
+ host_location                            varchar(200)
+
+ review_score_location                    dec
+
+ latitude                                 dec(10,5)
+
+ longitude                                dec(10,5)
+
+ price                                    varchar
+
+
+reviews
+ Field                      Description   Type           Default   Other
+
+ id                                       int                      FK
+
+ listing_id                               int                      PK
+
+ comments                                 varchar
+
+
+cafes
+ Field                      Description   Type           Default   Other
+
+ id                                       int
+
+ airbnb_name                              varchar                  PK
+
+ latitude                                 dec(10,5)
+
+ longitude                                dec(10,5)
+
+ cafe_name                                varchar
+
+ cafe_rating                              dec
+
+
+
+
+QuickDBD-export                                                            Page 1 of 1
+
